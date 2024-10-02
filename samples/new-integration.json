@@ -1,0 +1,2473 @@
+{
+  "property": "Hotel Neo",
+  "code": "XNYZ",
+  "city": "NYC",
+  "state": "NY",
+  "website": "example.com",
+  "days": [
+    {
+      "day_number": 1,
+      "available_rooms": 90,
+      "reserved_rooms": 11,
+      "day_revenue": 1102,
+      "average_room_price": 80
+    },
+    {
+      "day_number": 2,
+      "available_rooms": 90,
+      "reserved_rooms": 8,
+      "day_revenue": 1822,
+      "average_room_price": 58
+    },
+    {
+      "day_number": 3,
+      "available_rooms": 90,
+      "reserved_rooms": 13,
+      "day_revenue": 628,
+      "average_room_price": 120
+    },
+    {
+      "day_number": 4,
+      "available_rooms": 90,
+      "reserved_rooms": 13,
+      "day_revenue": 928,
+      "average_room_price": 51
+    },
+    {
+      "day_number": 5,
+      "available_rooms": 90,
+      "reserved_rooms": 53,
+      "day_revenue": 1572,
+      "average_room_price": 70
+    },
+    {
+      "day_number": 7,
+      "available_rooms": 90,
+      "reserved_rooms": 17,
+      "day_revenue": 1516,
+      "average_room_price": 70
+    },
+    {
+      "day_number": 8,
+      "available_rooms": 90,
+      "reserved_rooms": 28,
+      "day_revenue": 1024,
+      "average_room_price": 93
+    },
+    {
+      "day_number": 9,
+      "available_rooms": 90,
+      "reserved_rooms": 2,
+      "day_revenue": 552,
+      "average_room_price": 97
+    },
+    {
+      "day_number": 10,
+      "available_rooms": 90,
+      "reserved_rooms": 46,
+      "day_revenue": 1735,
+      "average_room_price": 58
+    },
+    {
+      "day_number": 11,
+      "available_rooms": 90,
+      "reserved_rooms": 29,
+      "day_revenue": 1526,
+      "average_room_price": 104
+    },
+    {
+      "day_number": 12,
+      "available_rooms": 90,
+      "reserved_rooms": 63,
+      "day_revenue": 962,
+      "average_room_price": 96
+    },
+    {
+      "day_number": 13,
+      "available_rooms": 90,
+      "reserved_rooms": 15,
+      "day_revenue": 920,
+      "average_room_price": 90
+    },
+    {
+      "day_number": 15,
+      "available_rooms": 90,
+      "reserved_rooms": 41,
+      "day_revenue": 584,
+      "average_room_price": 53
+    },
+    {
+      "day_number": 16,
+      "available_rooms": 90,
+      "reserved_rooms": 13,
+      "day_revenue": 689,
+      "average_room_price": 66
+    },
+    {
+      "day_number": 17,
+      "available_rooms": 90,
+      "reserved_rooms": 51,
+      "day_revenue": 675,
+      "average_room_price": 54
+    },
+    {
+      "day_number": 18,
+      "available_rooms": 90,
+      "reserved_rooms": 61,
+      "day_revenue": 926,
+      "average_room_price": 81
+    },
+    {
+      "day_number": 19,
+      "available_rooms": 90,
+      "reserved_rooms": 34,
+      "day_revenue": 1738,
+      "average_room_price": 99
+    },
+    {
+      "day_number": 20,
+      "available_rooms": 90,
+      "reserved_rooms": 47,
+      "day_revenue": 1964,
+      "average_room_price": 103
+    },
+    {
+      "day_number": 21,
+      "available_rooms": 90,
+      "reserved_rooms": 5,
+      "day_revenue": 824,
+      "average_room_price": 77
+    },
+    {
+      "day_number": 23,
+      "available_rooms": 90,
+      "reserved_rooms": 44,
+      "day_revenue": 1422,
+      "average_room_price": 103
+    },
+    {
+      "day_number": 24,
+      "available_rooms": 90,
+      "reserved_rooms": 60,
+      "day_revenue": 994,
+      "average_room_price": 113
+    },
+    {
+      "day_number": 25,
+      "available_rooms": 90,
+      "reserved_rooms": 43,
+      "day_revenue": 1163,
+      "average_room_price": 109
+    },
+    {
+      "day_number": 26,
+      "available_rooms": 90,
+      "reserved_rooms": 54,
+      "day_revenue": 1812,
+      "average_room_price": 82
+    },
+    {
+      "day_number": 27,
+      "available_rooms": 90,
+      "reserved_rooms": 44,
+      "day_revenue": 1990,
+      "average_room_price": 120
+    },
+    {
+      "day_number": 28,
+      "available_rooms": 90,
+      "reserved_rooms": 29,
+      "day_revenue": 1202,
+      "average_room_price": 93
+    },
+    {
+      "day_number": 29,
+      "available_rooms": 90,
+      "reserved_rooms": 51,
+      "day_revenue": 664,
+      "average_room_price": 101
+    },
+    {
+      "day_number": 30,
+      "available_rooms": 90,
+      "reserved_rooms": 11,
+      "day_revenue": 1343,
+      "average_room_price": 88
+    },
+    {
+      "day_number": 31,
+      "available_rooms": 90,
+      "reserved_rooms": 51,
+      "day_revenue": 1118,
+      "average_room_price": 51
+    },
+    {
+      "day_number": 32,
+      "available_rooms": 90,
+      "reserved_rooms": 33,
+      "day_revenue": 712,
+      "average_room_price": 68
+    },
+    {
+      "day_number": 33,
+      "available_rooms": 90,
+      "reserved_rooms": 24,
+      "day_revenue": 1513,
+      "average_room_price": 69
+    },
+    {
+      "day_number": 34,
+      "available_rooms": 90,
+      "reserved_rooms": 43,
+      "day_revenue": 1552,
+      "average_room_price": 82
+    },
+    {
+      "day_number": 35,
+      "available_rooms": 90,
+      "reserved_rooms": 48,
+      "day_revenue": 1693,
+      "average_room_price": 112
+    },
+    {
+      "day_number": 36,
+      "available_rooms": 90,
+      "reserved_rooms": 27,
+      "day_revenue": 719,
+      "average_room_price": 112
+    },
+    {
+      "day_number": 37,
+      "available_rooms": 90,
+      "reserved_rooms": 61,
+      "day_revenue": 1411,
+      "average_room_price": 85
+    },
+    {
+      "day_number": 38,
+      "available_rooms": 90,
+      "reserved_rooms": 56,
+      "day_revenue": 873,
+      "average_room_price": 102
+    },
+    {
+      "day_number": 39,
+      "available_rooms": 90,
+      "reserved_rooms": 69,
+      "day_revenue": 946,
+      "average_room_price": 85
+    },
+    {
+      "day_number": 40,
+      "available_rooms": 90,
+      "reserved_rooms": 18,
+      "day_revenue": 1655,
+      "average_room_price": 99
+    },
+    {
+      "day_number": 41,
+      "available_rooms": 90,
+      "reserved_rooms": 41,
+      "day_revenue": 1366,
+      "average_room_price": 95
+    },
+    {
+      "day_number": 42,
+      "available_rooms": 90,
+      "reserved_rooms": 11,
+      "day_revenue": 1467,
+      "average_room_price": 115
+    },
+    {
+      "day_number": 43,
+      "available_rooms": 90,
+      "reserved_rooms": 49,
+      "day_revenue": 1259,
+      "average_room_price": 119
+    },
+    {
+      "day_number": 44,
+      "available_rooms": 90,
+      "reserved_rooms": 22,
+      "day_revenue": 1810,
+      "average_room_price": 67
+    },
+    {
+      "day_number": 45,
+      "available_rooms": 90,
+      "reserved_rooms": 55,
+      "day_revenue": 1815,
+      "average_room_price": 79
+    },
+    {
+      "day_number": 46,
+      "available_rooms": 90,
+      "reserved_rooms": 10,
+      "day_revenue": 1932,
+      "average_room_price": 80
+    },
+    {
+      "day_number": 47,
+      "available_rooms": 90,
+      "reserved_rooms": 8,
+      "day_revenue": 1927,
+      "average_room_price": 58
+    },
+    {
+      "day_number": 48,
+      "available_rooms": 90,
+      "reserved_rooms": 69,
+      "day_revenue": 1822,
+      "average_room_price": 113
+    },
+    {
+      "day_number": 49,
+      "available_rooms": 90,
+      "reserved_rooms": 35,
+      "day_revenue": 1642,
+      "average_room_price": 99
+    },
+    {
+      "day_number": 50,
+      "available_rooms": 90,
+      "reserved_rooms": 52,
+      "day_revenue": 1126,
+      "average_room_price": 84
+    },
+    {
+      "day_number": 51,
+      "available_rooms": 90,
+      "reserved_rooms": 39,
+      "day_revenue": 1097,
+      "average_room_price": 50
+    },
+    {
+      "day_number": 52,
+      "available_rooms": 90,
+      "reserved_rooms": 6,
+      "day_revenue": 559,
+      "average_room_price": 90
+    },
+    {
+      "day_number": 53,
+      "available_rooms": 90,
+      "reserved_rooms": 66,
+      "day_revenue": 1904,
+      "average_room_price": 120
+    },
+    {
+      "day_number": 54,
+      "available_rooms": 90,
+      "reserved_rooms": 21,
+      "day_revenue": 808,
+      "average_room_price": 94
+    },
+    {
+      "day_number": 55,
+      "available_rooms": 90,
+      "reserved_rooms": 48,
+      "day_revenue": 1398,
+      "average_room_price": 100
+    },
+    {
+      "day_number": 56,
+      "available_rooms": 90,
+      "reserved_rooms": 66,
+      "day_revenue": 1163,
+      "average_room_price": 96
+    },
+    {
+      "day_number": 58,
+      "available_rooms": 90,
+      "reserved_rooms": 3,
+      "day_revenue": 1817,
+      "average_room_price": 102
+    },
+    {
+      "day_number": 59,
+      "available_rooms": 90,
+      "reserved_rooms": 11,
+      "day_revenue": 878,
+      "average_room_price": 103
+    },
+    {
+      "day_number": 60,
+      "available_rooms": 90,
+      "reserved_rooms": 53,
+      "day_revenue": 1571,
+      "average_room_price": 105
+    },
+    {
+      "day_number": 61,
+      "available_rooms": 90,
+      "reserved_rooms": 43,
+      "day_revenue": 608,
+      "average_room_price": 70
+    },
+    {
+      "day_number": 62,
+      "available_rooms": 90,
+      "reserved_rooms": 64,
+      "day_revenue": 647,
+      "average_room_price": 120
+    },
+    {
+      "day_number": 63,
+      "available_rooms": 90,
+      "reserved_rooms": 70,
+      "day_revenue": 1201,
+      "average_room_price": 71
+    },
+    {
+      "day_number": 64,
+      "available_rooms": 90,
+      "reserved_rooms": 35,
+      "day_revenue": 764,
+      "average_room_price": 83
+    },
+    {
+      "day_number": 65,
+      "available_rooms": 90,
+      "reserved_rooms": 13,
+      "day_revenue": 1220,
+      "average_room_price": 118
+    },
+    {
+      "day_number": 66,
+      "available_rooms": 90,
+      "reserved_rooms": 46,
+      "day_revenue": 712,
+      "average_room_price": 56
+    },
+    {
+      "day_number": 67,
+      "available_rooms": 90,
+      "reserved_rooms": 30,
+      "day_revenue": 1831,
+      "average_room_price": 72
+    },
+    {
+      "day_number": 68,
+      "available_rooms": 90,
+      "reserved_rooms": 35,
+      "day_revenue": 1576,
+      "average_room_price": 79
+    },
+    {
+      "day_number": 69,
+      "available_rooms": 90,
+      "reserved_rooms": 28,
+      "day_revenue": 867,
+      "average_room_price": 111
+    },
+    {
+      "day_number": 70,
+      "available_rooms": 90,
+      "reserved_rooms": 68,
+      "day_revenue": 762,
+      "average_room_price": 97
+    },
+    {
+      "day_number": 71,
+      "available_rooms": 90,
+      "reserved_rooms": 14,
+      "day_revenue": 1401,
+      "average_room_price": 53
+    },
+    {
+      "day_number": 72,
+      "available_rooms": 90,
+      "reserved_rooms": 38,
+      "day_revenue": 1135,
+      "average_room_price": 90
+    },
+    {
+      "day_number": 73,
+      "available_rooms": 90,
+      "reserved_rooms": 66,
+      "day_revenue": 1953,
+      "average_room_price": 82
+    },
+    {
+      "day_number": 74,
+      "available_rooms": 90,
+      "reserved_rooms": 23,
+      "day_revenue": 1630,
+      "average_room_price": 99
+    },
+    {
+      "day_number": 75,
+      "available_rooms": 90,
+      "reserved_rooms": 48,
+      "day_revenue": 938,
+      "average_room_price": 90
+    },
+    {
+      "day_number": 76,
+      "available_rooms": 90,
+      "reserved_rooms": 45,
+      "day_revenue": 593,
+      "average_room_price": 85
+    },
+    {
+      "day_number": 78,
+      "available_rooms": 90,
+      "reserved_rooms": 27,
+      "day_revenue": 1929,
+      "average_room_price": 79
+    },
+    {
+      "day_number": 79,
+      "available_rooms": 90,
+      "reserved_rooms": 69,
+      "day_revenue": 814,
+      "average_room_price": 73
+    },
+    {
+      "day_number": 80,
+      "available_rooms": 90,
+      "reserved_rooms": 45,
+      "day_revenue": 1025,
+      "average_room_price": 77
+    },
+    {
+      "day_number": 81,
+      "available_rooms": 90,
+      "reserved_rooms": 49,
+      "day_revenue": 1975,
+      "average_room_price": 50
+    },
+    {
+      "day_number": 82,
+      "available_rooms": 90,
+      "reserved_rooms": 34,
+      "day_revenue": 680,
+      "average_room_price": 68
+    },
+    {
+      "day_number": 83,
+      "available_rooms": 90,
+      "reserved_rooms": 17,
+      "day_revenue": 1434,
+      "average_room_price": 68
+    },
+    {
+      "day_number": 84,
+      "available_rooms": 90,
+      "reserved_rooms": 57,
+      "day_revenue": 1628,
+      "average_room_price": 77
+    },
+    {
+      "day_number": 85,
+      "available_rooms": 90,
+      "reserved_rooms": 26,
+      "day_revenue": 755,
+      "average_room_price": 112
+    },
+    {
+      "day_number": 86,
+      "available_rooms": 90,
+      "reserved_rooms": 44,
+      "day_revenue": 1831,
+      "average_room_price": 96
+    },
+    {
+      "day_number": 87,
+      "available_rooms": 90,
+      "reserved_rooms": 39,
+      "day_revenue": 1931,
+      "average_room_price": 91
+    },
+    {
+      "day_number": 89,
+      "available_rooms": 90,
+      "reserved_rooms": 7,
+      "day_revenue": 1166,
+      "average_room_price": 95
+    },
+    {
+      "day_number": 90,
+      "available_rooms": 90,
+      "reserved_rooms": 4,
+      "day_revenue": 1606,
+      "average_room_price": 56
+    },
+    {
+      "day_number": 91,
+      "available_rooms": 90,
+      "reserved_rooms": 5,
+      "day_revenue": 668,
+      "average_room_price": 66
+    },
+    {
+      "day_number": 92,
+      "available_rooms": 90,
+      "reserved_rooms": 64,
+      "day_revenue": 1768,
+      "average_room_price": 105
+    },
+    {
+      "day_number": 93,
+      "available_rooms": 90,
+      "reserved_rooms": 46,
+      "day_revenue": 835,
+      "average_room_price": 117
+    },
+    {
+      "day_number": 94,
+      "available_rooms": 90,
+      "reserved_rooms": 34,
+      "day_revenue": 1597,
+      "average_room_price": 81
+    },
+    {
+      "day_number": 95,
+      "available_rooms": 90,
+      "reserved_rooms": 57,
+      "day_revenue": 1404,
+      "average_room_price": 109
+    },
+    {
+      "day_number": 96,
+      "available_rooms": 90,
+      "reserved_rooms": 0,
+      "day_revenue": 1857,
+      "average_room_price": 59
+    },
+    {
+      "day_number": 97,
+      "available_rooms": 90,
+      "reserved_rooms": 32,
+      "day_revenue": 1189,
+      "average_room_price": 73
+    },
+    {
+      "day_number": 98,
+      "available_rooms": 90,
+      "reserved_rooms": 70,
+      "day_revenue": 568,
+      "average_room_price": 119
+    },
+    {
+      "day_number": 99,
+      "available_rooms": 90,
+      "reserved_rooms": 36,
+      "day_revenue": 563,
+      "average_room_price": 110
+    },
+    {
+      "day_number": 100,
+      "available_rooms": 90,
+      "reserved_rooms": 46,
+      "day_revenue": 851,
+      "average_room_price": 80
+    },
+    {
+      "day_number": 101,
+      "available_rooms": 90,
+      "reserved_rooms": 12,
+      "day_revenue": 825,
+      "average_room_price": 82
+    },
+    {
+      "day_number": 102,
+      "available_rooms": 90,
+      "reserved_rooms": 60,
+      "day_revenue": 1666,
+      "average_room_price": 113
+    },
+    {
+      "day_number": 104,
+      "available_rooms": 90,
+      "reserved_rooms": 57,
+      "day_revenue": 1773,
+      "average_room_price": 100
+    },
+    {
+      "day_number": 105,
+      "available_rooms": 90,
+      "reserved_rooms": 22,
+      "day_revenue": 1761,
+      "average_room_price": 98
+    },
+    {
+      "day_number": 106,
+      "available_rooms": 90,
+      "reserved_rooms": 39,
+      "day_revenue": 1855,
+      "average_room_price": 114
+    },
+    {
+      "day_number": 107,
+      "available_rooms": 90,
+      "reserved_rooms": 50,
+      "day_revenue": 1008,
+      "average_room_price": 60
+    },
+    {
+      "day_number": 108,
+      "available_rooms": 90,
+      "reserved_rooms": 14,
+      "day_revenue": 1775,
+      "average_room_price": 100
+    },
+    {
+      "day_number": 109,
+      "available_rooms": 90,
+      "reserved_rooms": 22,
+      "day_revenue": 936,
+      "average_room_price": 115
+    },
+    {
+      "day_number": 110,
+      "available_rooms": 90,
+      "reserved_rooms": 10,
+      "day_revenue": 1489,
+      "average_room_price": 98
+    },
+    {
+      "day_number": 111,
+      "available_rooms": 90,
+      "reserved_rooms": 8,
+      "day_revenue": 1183,
+      "average_room_price": 118
+    },
+    {
+      "day_number": 112,
+      "available_rooms": 90,
+      "reserved_rooms": 48,
+      "day_revenue": 977,
+      "average_room_price": 98
+    },
+    {
+      "day_number": 113,
+      "available_rooms": 90,
+      "reserved_rooms": 62,
+      "day_revenue": 1193,
+      "average_room_price": 60
+    },
+    {
+      "day_number": 114,
+      "available_rooms": 90,
+      "reserved_rooms": 61,
+      "day_revenue": 717,
+      "average_room_price": 119
+    },
+    {
+      "day_number": 115,
+      "available_rooms": 90,
+      "reserved_rooms": 55,
+      "day_revenue": 790,
+      "average_room_price": 53
+    },
+    {
+      "day_number": 116,
+      "available_rooms": 90,
+      "reserved_rooms": 14,
+      "day_revenue": 773,
+      "average_room_price": 70
+    },
+    {
+      "day_number": 117,
+      "available_rooms": 90,
+      "reserved_rooms": 34,
+      "day_revenue": 1619,
+      "average_room_price": 85
+    },
+    {
+      "day_number": 118,
+      "available_rooms": 90,
+      "reserved_rooms": 10,
+      "day_revenue": 1371,
+      "average_room_price": 77
+    },
+    {
+      "day_number": 119,
+      "available_rooms": 90,
+      "reserved_rooms": 59,
+      "day_revenue": 1480,
+      "average_room_price": 62
+    },
+    {
+      "day_number": 120,
+      "available_rooms": 90,
+      "reserved_rooms": 5,
+      "day_revenue": 1796,
+      "average_room_price": 74
+    },
+    {
+      "day_number": 121,
+      "available_rooms": 90,
+      "reserved_rooms": 61,
+      "day_revenue": 999,
+      "average_room_price": 113
+    },
+    {
+      "day_number": 122,
+      "available_rooms": 90,
+      "reserved_rooms": 19,
+      "day_revenue": 938,
+      "average_room_price": 72
+    },
+    {
+      "day_number": 123,
+      "available_rooms": 90,
+      "reserved_rooms": 14,
+      "day_revenue": 1380,
+      "average_room_price": 55
+    },
+    {
+      "day_number": 124,
+      "available_rooms": 90,
+      "reserved_rooms": 54,
+      "day_revenue": 1033,
+      "average_room_price": 94
+    },
+    {
+      "day_number": 125,
+      "available_rooms": 90,
+      "reserved_rooms": 9,
+      "day_revenue": 829,
+      "average_room_price": 98
+    },
+    {
+      "day_number": 126,
+      "available_rooms": 90,
+      "reserved_rooms": 23,
+      "day_revenue": 1736,
+      "average_room_price": 91
+    },
+    {
+      "day_number": 127,
+      "available_rooms": 90,
+      "reserved_rooms": 7,
+      "day_revenue": 1622,
+      "average_room_price": 111
+    },
+    {
+      "day_number": 128,
+      "available_rooms": 90,
+      "reserved_rooms": 1,
+      "day_revenue": 1464,
+      "average_room_price": 72
+    },
+    {
+      "day_number": 129,
+      "available_rooms": 90,
+      "reserved_rooms": 56,
+      "day_revenue": 1652,
+      "average_room_price": 108
+    },
+    {
+      "day_number": 130,
+      "available_rooms": 90,
+      "reserved_rooms": 40,
+      "day_revenue": 1447,
+      "average_room_price": 109
+    },
+    {
+      "day_number": 131,
+      "available_rooms": 90,
+      "reserved_rooms": 63,
+      "day_revenue": 1048,
+      "average_room_price": 71
+    },
+    {
+      "day_number": 132,
+      "available_rooms": 90,
+      "reserved_rooms": 50,
+      "day_revenue": 1467,
+      "average_room_price": 74
+    },
+    {
+      "day_number": 133,
+      "available_rooms": 90,
+      "reserved_rooms": 9,
+      "day_revenue": 936,
+      "average_room_price": 111
+    },
+    {
+      "day_number": 134,
+      "available_rooms": 90,
+      "reserved_rooms": 27,
+      "day_revenue": 738,
+      "average_room_price": 64
+    },
+    {
+      "day_number": 135,
+      "available_rooms": 90,
+      "reserved_rooms": 48,
+      "day_revenue": 592,
+      "average_room_price": 63
+    },
+    {
+      "day_number": 136,
+      "available_rooms": 90,
+      "reserved_rooms": 7,
+      "day_revenue": 1579,
+      "average_room_price": 83
+    },
+    {
+      "day_number": 137,
+      "available_rooms": 90,
+      "reserved_rooms": 31,
+      "day_revenue": 1662,
+      "average_room_price": 93
+    },
+    {
+      "day_number": 138,
+      "available_rooms": 90,
+      "reserved_rooms": 10,
+      "day_revenue": 678,
+      "average_room_price": 72
+    },
+    {
+      "day_number": 139,
+      "available_rooms": 90,
+      "reserved_rooms": 37,
+      "day_revenue": 1452,
+      "average_room_price": 108
+    },
+    {
+      "day_number": 140,
+      "available_rooms": 90,
+      "reserved_rooms": 9,
+      "day_revenue": 781,
+      "average_room_price": 60
+    },
+    {
+      "day_number": 141,
+      "available_rooms": 90,
+      "reserved_rooms": 58,
+      "day_revenue": 1207,
+      "average_room_price": 79
+    },
+    {
+      "day_number": 142,
+      "available_rooms": 90,
+      "reserved_rooms": 64,
+      "day_revenue": 1474,
+      "average_room_price": 85
+    },
+    {
+      "day_number": 143,
+      "available_rooms": 90,
+      "reserved_rooms": 70,
+      "day_revenue": 1025,
+      "average_room_price": 115
+    },
+    {
+      "day_number": 144,
+      "available_rooms": 90,
+      "reserved_rooms": 35,
+      "day_revenue": 1175,
+      "average_room_price": 81
+    },
+    {
+      "day_number": 145,
+      "available_rooms": 90,
+      "reserved_rooms": 46,
+      "day_revenue": 1143,
+      "average_room_price": 53
+    },
+    {
+      "day_number": 146,
+      "available_rooms": 90,
+      "reserved_rooms": 40,
+      "day_revenue": 1724,
+      "average_room_price": 85
+    },
+    {
+      "day_number": 147,
+      "available_rooms": 90,
+      "reserved_rooms": 35,
+      "day_revenue": 1005,
+      "average_room_price": 78
+    },
+    {
+      "day_number": 148,
+      "available_rooms": 90,
+      "reserved_rooms": 32,
+      "day_revenue": 1404,
+      "average_room_price": 109
+    },
+    {
+      "day_number": 149,
+      "available_rooms": 90,
+      "reserved_rooms": 22,
+      "day_revenue": 1323,
+      "average_room_price": 98
+    },
+    {
+      "day_number": 150,
+      "available_rooms": 90,
+      "reserved_rooms": 15,
+      "day_revenue": 1745,
+      "average_room_price": 67
+    },
+    {
+      "day_number": 151,
+      "available_rooms": 90,
+      "reserved_rooms": 60,
+      "day_revenue": 644,
+      "average_room_price": 106
+    },
+    {
+      "day_number": 152,
+      "available_rooms": 90,
+      "reserved_rooms": 22,
+      "day_revenue": 855,
+      "average_room_price": 63
+    },
+    {
+      "day_number": 153,
+      "available_rooms": 90,
+      "reserved_rooms": 60,
+      "day_revenue": 1577,
+      "average_room_price": 91
+    },
+    {
+      "day_number": 154,
+      "available_rooms": 90,
+      "reserved_rooms": 70,
+      "day_revenue": 1457,
+      "average_room_price": 113
+    },
+    {
+      "day_number": 155,
+      "available_rooms": 90,
+      "reserved_rooms": 51,
+      "day_revenue": 1228,
+      "average_room_price": 57
+    },
+    {
+      "day_number": 156,
+      "available_rooms": 90,
+      "reserved_rooms": 20,
+      "day_revenue": 1528,
+      "average_room_price": 60
+    },
+    {
+      "day_number": 157,
+      "available_rooms": 90,
+      "reserved_rooms": 52,
+      "day_revenue": 1240,
+      "average_room_price": 50
+    },
+    {
+      "day_number": 158,
+      "available_rooms": 90,
+      "reserved_rooms": 25,
+      "day_revenue": 1787,
+      "average_room_price": 114
+    },
+    {
+      "day_number": 160,
+      "available_rooms": 90,
+      "reserved_rooms": 62,
+      "day_revenue": 912,
+      "average_room_price": 89
+    },
+    {
+      "day_number": 161,
+      "available_rooms": 90,
+      "reserved_rooms": 64,
+      "day_revenue": 1361,
+      "average_room_price": 96
+    },
+    {
+      "day_number": 162,
+      "available_rooms": 90,
+      "reserved_rooms": 38,
+      "day_revenue": 1204,
+      "average_room_price": 111
+    },
+    {
+      "day_number": 163,
+      "available_rooms": 90,
+      "reserved_rooms": 53,
+      "day_revenue": 1428,
+      "average_room_price": 64
+    },
+    {
+      "day_number": 164,
+      "available_rooms": 90,
+      "reserved_rooms": 4,
+      "day_revenue": 1259,
+      "average_room_price": 90
+    },
+    {
+      "day_number": 165,
+      "available_rooms": 90,
+      "reserved_rooms": 22,
+      "day_revenue": 847,
+      "average_room_price": 71
+    },
+    {
+      "day_number": 166,
+      "available_rooms": 90,
+      "reserved_rooms": 57,
+      "day_revenue": 1666,
+      "average_room_price": 98
+    },
+    {
+      "day_number": 167,
+      "available_rooms": 90,
+      "reserved_rooms": 51,
+      "day_revenue": 974,
+      "average_room_price": 53
+    },
+    {
+      "day_number": 168,
+      "available_rooms": 90,
+      "reserved_rooms": 4,
+      "day_revenue": 1777,
+      "average_room_price": 80
+    },
+    {
+      "day_number": 169,
+      "available_rooms": 90,
+      "reserved_rooms": 12,
+      "day_revenue": 833,
+      "average_room_price": 55
+    },
+    {
+      "day_number": 170,
+      "available_rooms": 90,
+      "reserved_rooms": 49,
+      "day_revenue": 1867,
+      "average_room_price": 56
+    },
+    {
+      "day_number": 171,
+      "available_rooms": 90,
+      "reserved_rooms": 24,
+      "day_revenue": 757,
+      "average_room_price": 114
+    },
+    {
+      "day_number": 172,
+      "available_rooms": 90,
+      "reserved_rooms": 16,
+      "day_revenue": 1011,
+      "average_room_price": 59
+    },
+    {
+      "day_number": 173,
+      "available_rooms": 90,
+      "reserved_rooms": 68,
+      "day_revenue": 969,
+      "average_room_price": 60
+    },
+    {
+      "day_number": 174,
+      "available_rooms": 90,
+      "reserved_rooms": 11,
+      "day_revenue": 1911,
+      "average_room_price": 91
+    },
+    {
+      "day_number": 175,
+      "available_rooms": 90,
+      "reserved_rooms": 5,
+      "day_revenue": 1649,
+      "average_room_price": 120
+    },
+    {
+      "day_number": 176,
+      "available_rooms": 90,
+      "reserved_rooms": 13,
+      "day_revenue": 621,
+      "average_room_price": 51
+    },
+    {
+      "day_number": 177,
+      "available_rooms": 90,
+      "reserved_rooms": 5,
+      "day_revenue": 948,
+      "average_room_price": 66
+    },
+    {
+      "day_number": 178,
+      "available_rooms": 90,
+      "reserved_rooms": 26,
+      "day_revenue": 703,
+      "average_room_price": 62
+    },
+    {
+      "day_number": 179,
+      "available_rooms": 90,
+      "reserved_rooms": 59,
+      "day_revenue": 1095,
+      "average_room_price": 103
+    },
+    {
+      "day_number": 180,
+      "available_rooms": 90,
+      "reserved_rooms": 23,
+      "day_revenue": 1961,
+      "average_room_price": 51
+    },
+    {
+      "day_number": 181,
+      "available_rooms": 90,
+      "reserved_rooms": 47,
+      "day_revenue": 942,
+      "average_room_price": 90
+    },
+    {
+      "day_number": 182,
+      "available_rooms": 90,
+      "reserved_rooms": 5,
+      "day_revenue": 1624,
+      "average_room_price": 61
+    },
+    {
+      "day_number": 183,
+      "available_rooms": 90,
+      "reserved_rooms": 46,
+      "day_revenue": 582,
+      "average_room_price": 118
+    },
+    {
+      "day_number": 184,
+      "available_rooms": 90,
+      "reserved_rooms": 47,
+      "day_revenue": 888,
+      "average_room_price": 100
+    },
+    {
+      "day_number": 185,
+      "available_rooms": 90,
+      "reserved_rooms": 44,
+      "day_revenue": 1066,
+      "average_room_price": 64
+    },
+    {
+      "day_number": 186,
+      "available_rooms": 90,
+      "reserved_rooms": 58,
+      "day_revenue": 1790,
+      "average_room_price": 68
+    },
+    {
+      "day_number": 187,
+      "available_rooms": 90,
+      "reserved_rooms": 11,
+      "day_revenue": 757,
+      "average_room_price": 112
+    },
+    {
+      "day_number": 188,
+      "available_rooms": 90,
+      "reserved_rooms": 32,
+      "day_revenue": 862,
+      "average_room_price": 79
+    },
+    {
+      "day_number": 189,
+      "available_rooms": 90,
+      "reserved_rooms": 7,
+      "day_revenue": 1652,
+      "average_room_price": 69
+    },
+    {
+      "day_number": 190,
+      "available_rooms": 90,
+      "reserved_rooms": 26,
+      "day_revenue": 1083,
+      "average_room_price": 75
+    },
+    {
+      "day_number": 191,
+      "available_rooms": 90,
+      "reserved_rooms": 31,
+      "day_revenue": 1725,
+      "average_room_price": 77
+    },
+    {
+      "day_number": 192,
+      "available_rooms": 90,
+      "reserved_rooms": 70,
+      "day_revenue": 939,
+      "average_room_price": 99
+    },
+    {
+      "day_number": 193,
+      "available_rooms": 90,
+      "reserved_rooms": 20,
+      "day_revenue": 1863,
+      "average_room_price": 84
+    },
+    {
+      "day_number": 194,
+      "available_rooms": 90,
+      "reserved_rooms": 39,
+      "day_revenue": 886,
+      "average_room_price": 70
+    },
+    {
+      "day_number": 195,
+      "available_rooms": 90,
+      "reserved_rooms": 54,
+      "day_revenue": 1027,
+      "average_room_price": 112
+    },
+    {
+      "day_number": 196,
+      "available_rooms": 90,
+      "reserved_rooms": 19,
+      "day_revenue": 636,
+      "average_room_price": 101
+    },
+    {
+      "day_number": 197,
+      "available_rooms": 90,
+      "reserved_rooms": 4,
+      "day_revenue": 1413,
+      "average_room_price": 103
+    },
+    {
+      "day_number": 198,
+      "available_rooms": 90,
+      "reserved_rooms": 16,
+      "day_revenue": 1384,
+      "average_room_price": 117
+    },
+    {
+      "day_number": 199,
+      "available_rooms": 90,
+      "reserved_rooms": 46,
+      "day_revenue": 1536,
+      "average_room_price": 82
+    },
+    {
+      "day_number": 200,
+      "available_rooms": 90,
+      "reserved_rooms": 44,
+      "day_revenue": 1774,
+      "average_room_price": 65
+    },
+    {
+      "day_number": 201,
+      "available_rooms": 90,
+      "reserved_rooms": 70,
+      "day_revenue": 1927,
+      "average_room_price": 51
+    },
+    {
+      "day_number": 202,
+      "available_rooms": 90,
+      "reserved_rooms": 8,
+      "day_revenue": 1303,
+      "average_room_price": 84
+    },
+    {
+      "day_number": 203,
+      "available_rooms": 90,
+      "reserved_rooms": 8,
+      "day_revenue": 911,
+      "average_room_price": 61
+    },
+    {
+      "day_number": 204,
+      "available_rooms": 90,
+      "reserved_rooms": 30,
+      "day_revenue": 1612,
+      "average_room_price": 102
+    },
+    {
+      "day_number": 205,
+      "available_rooms": 90,
+      "reserved_rooms": 54,
+      "day_revenue": 1057,
+      "average_room_price": 69
+    },
+    {
+      "day_number": 206,
+      "available_rooms": 90,
+      "reserved_rooms": 59,
+      "day_revenue": 690,
+      "average_room_price": 80
+    },
+    {
+      "day_number": 207,
+      "available_rooms": 90,
+      "reserved_rooms": 64,
+      "day_revenue": 1702,
+      "average_room_price": 74
+    },
+    {
+      "day_number": 208,
+      "available_rooms": 90,
+      "reserved_rooms": 17,
+      "day_revenue": 1583,
+      "average_room_price": 120
+    },
+    {
+      "day_number": 209,
+      "available_rooms": 90,
+      "reserved_rooms": 55,
+      "day_revenue": 1769,
+      "average_room_price": 112
+    },
+    {
+      "day_number": 210,
+      "available_rooms": 90,
+      "reserved_rooms": 44,
+      "day_revenue": 899,
+      "average_room_price": 71
+    },
+    {
+      "day_number": 211,
+      "available_rooms": 90,
+      "reserved_rooms": 49,
+      "day_revenue": 1548,
+      "average_room_price": 69
+    },
+    {
+      "day_number": 212,
+      "available_rooms": 90,
+      "reserved_rooms": 26,
+      "day_revenue": 678,
+      "average_room_price": 97
+    },
+    {
+      "day_number": 213,
+      "available_rooms": 90,
+      "reserved_rooms": 1,
+      "day_revenue": 1176,
+      "average_room_price": 112
+    },
+    {
+      "day_number": 214,
+      "available_rooms": 90,
+      "reserved_rooms": 40,
+      "day_revenue": 1884,
+      "average_room_price": 102
+    },
+    {
+      "day_number": 215,
+      "available_rooms": 90,
+      "reserved_rooms": 28,
+      "day_revenue": 1000,
+      "average_room_price": 97
+    },
+    {
+      "day_number": 216,
+      "available_rooms": 90,
+      "reserved_rooms": 16,
+      "day_revenue": 789,
+      "average_room_price": 90
+    },
+    {
+      "day_number": 217,
+      "available_rooms": 90,
+      "reserved_rooms": 24,
+      "day_revenue": 1279,
+      "average_room_price": 115
+    },
+    {
+      "day_number": 218,
+      "available_rooms": 90,
+      "reserved_rooms": 17,
+      "day_revenue": 1121,
+      "average_room_price": 99
+    },
+    {
+      "day_number": 219,
+      "available_rooms": 90,
+      "reserved_rooms": 8,
+      "day_revenue": 1535,
+      "average_room_price": 86
+    },
+    {
+      "day_number": 220,
+      "available_rooms": 90,
+      "reserved_rooms": 22,
+      "day_revenue": 1744,
+      "average_room_price": 105
+    },
+    {
+      "day_number": 221,
+      "available_rooms": 90,
+      "reserved_rooms": 65,
+      "day_revenue": 1232,
+      "average_room_price": 90
+    },
+    {
+      "day_number": 222,
+      "available_rooms": 90,
+      "reserved_rooms": 3,
+      "day_revenue": 1176,
+      "average_room_price": 66
+    },
+    {
+      "day_number": 223,
+      "available_rooms": 90,
+      "reserved_rooms": 56,
+      "day_revenue": 1595,
+      "average_room_price": 114
+    },
+    {
+      "day_number": 224,
+      "available_rooms": 90,
+      "reserved_rooms": 68,
+      "day_revenue": 1025,
+      "average_room_price": 87
+    },
+    {
+      "day_number": 225,
+      "available_rooms": 90,
+      "reserved_rooms": 27,
+      "day_revenue": 1578,
+      "average_room_price": 113
+    },
+    {
+      "day_number": 226,
+      "available_rooms": 90,
+      "reserved_rooms": 61,
+      "day_revenue": 1096,
+      "average_room_price": 57
+    },
+    {
+      "day_number": 227,
+      "available_rooms": 90,
+      "reserved_rooms": 40,
+      "day_revenue": 778,
+      "average_room_price": 65
+    },
+    {
+      "day_number": 228,
+      "available_rooms": 90,
+      "reserved_rooms": 47,
+      "day_revenue": 1209,
+      "average_room_price": 79
+    },
+    {
+      "day_number": 229,
+      "available_rooms": 90,
+      "reserved_rooms": 36,
+      "day_revenue": 929,
+      "average_room_price": 100
+    },
+    {
+      "day_number": 230,
+      "available_rooms": 90,
+      "reserved_rooms": 50,
+      "day_revenue": 973,
+      "average_room_price": 69
+    },
+    {
+      "day_number": 231,
+      "available_rooms": 90,
+      "reserved_rooms": 23,
+      "day_revenue": 1669,
+      "average_room_price": 115
+    },
+    {
+      "day_number": 232,
+      "available_rooms": 90,
+      "reserved_rooms": 69,
+      "day_revenue": 630,
+      "average_room_price": 85
+    },
+    {
+      "day_number": 233,
+      "available_rooms": 90,
+      "reserved_rooms": 64,
+      "day_revenue": 1465,
+      "average_room_price": 104
+    },
+    {
+      "day_number": 234,
+      "available_rooms": 90,
+      "reserved_rooms": 2,
+      "day_revenue": 844,
+      "average_room_price": 118
+    },
+    {
+      "day_number": 235,
+      "available_rooms": 90,
+      "reserved_rooms": 18,
+      "day_revenue": 1390,
+      "average_room_price": 109
+    },
+    {
+      "day_number": 236,
+      "available_rooms": 90,
+      "reserved_rooms": 59,
+      "day_revenue": 1611,
+      "average_room_price": 91
+    },
+    {
+      "day_number": 237,
+      "available_rooms": 90,
+      "reserved_rooms": 37,
+      "day_revenue": 1380,
+      "average_room_price": 108
+    },
+    {
+      "day_number": 238,
+      "available_rooms": 90,
+      "reserved_rooms": 66,
+      "day_revenue": 1467,
+      "average_room_price": 56
+    },
+    {
+      "day_number": 239,
+      "available_rooms": 90,
+      "reserved_rooms": 45,
+      "day_revenue": 921,
+      "average_room_price": 115
+    },
+    {
+      "day_number": 240,
+      "available_rooms": 90,
+      "reserved_rooms": 33,
+      "day_revenue": 1537,
+      "average_room_price": 73
+    },
+    {
+      "day_number": 241,
+      "available_rooms": 90,
+      "reserved_rooms": 31,
+      "day_revenue": 1072,
+      "average_room_price": 66
+    },
+    {
+      "day_number": 242,
+      "available_rooms": 90,
+      "reserved_rooms": 2,
+      "day_revenue": 1322,
+      "average_room_price": 51
+    },
+    {
+      "day_number": 243,
+      "available_rooms": 90,
+      "reserved_rooms": 9,
+      "day_revenue": 651,
+      "average_room_price": 85
+    },
+    {
+      "day_number": 244,
+      "available_rooms": 90,
+      "reserved_rooms": 65,
+      "day_revenue": 1732,
+      "average_room_price": 56
+    },
+    {
+      "day_number": 245,
+      "available_rooms": 90,
+      "reserved_rooms": 14,
+      "day_revenue": 1026,
+      "average_room_price": 114
+    },
+    {
+      "day_number": 246,
+      "available_rooms": 90,
+      "reserved_rooms": 38,
+      "day_revenue": 1292,
+      "average_room_price": 100
+    },
+    {
+      "day_number": 247,
+      "available_rooms": 90,
+      "reserved_rooms": 23,
+      "day_revenue": 855,
+      "average_room_price": 79
+    },
+    {
+      "day_number": 248,
+      "available_rooms": 90,
+      "reserved_rooms": 35,
+      "day_revenue": 921,
+      "average_room_price": 80
+    },
+    {
+      "day_number": 249,
+      "available_rooms": 90,
+      "reserved_rooms": 43,
+      "day_revenue": 1409,
+      "average_room_price": 98
+    },
+    {
+      "day_number": 250,
+      "available_rooms": 90,
+      "reserved_rooms": 28,
+      "day_revenue": 653,
+      "average_room_price": 55
+    },
+    {
+      "day_number": 251,
+      "available_rooms": 90,
+      "reserved_rooms": 5,
+      "day_revenue": 1956,
+      "average_room_price": 100
+    },
+    {
+      "day_number": 252,
+      "available_rooms": 90,
+      "reserved_rooms": 27,
+      "day_revenue": 669,
+      "average_room_price": 79
+    },
+    {
+      "day_number": 253,
+      "available_rooms": 90,
+      "reserved_rooms": 50,
+      "day_revenue": 1167,
+      "average_room_price": 75
+    },
+    {
+      "day_number": 254,
+      "available_rooms": 90,
+      "reserved_rooms": 22,
+      "day_revenue": 1429,
+      "average_room_price": 87
+    },
+    {
+      "day_number": 255,
+      "available_rooms": 90,
+      "reserved_rooms": 69,
+      "day_revenue": 1077,
+      "average_room_price": 64
+    },
+    {
+      "day_number": 256,
+      "available_rooms": 90,
+      "reserved_rooms": 7,
+      "day_revenue": 844,
+      "average_room_price": 81
+    },
+    {
+      "day_number": 257,
+      "available_rooms": 90,
+      "reserved_rooms": 25,
+      "day_revenue": 1292,
+      "average_room_price": 89
+    },
+    {
+      "day_number": 258,
+      "available_rooms": 90,
+      "reserved_rooms": 58,
+      "day_revenue": 1161,
+      "average_room_price": 69
+    },
+    {
+      "day_number": 259,
+      "available_rooms": 90,
+      "reserved_rooms": 38,
+      "day_revenue": 836,
+      "average_room_price": 79
+    },
+    {
+      "day_number": 260,
+      "available_rooms": 90,
+      "reserved_rooms": 39,
+      "day_revenue": 1077,
+      "average_room_price": 70
+    },
+    {
+      "day_number": 261,
+      "available_rooms": 90,
+      "reserved_rooms": 44,
+      "day_revenue": 1533,
+      "average_room_price": 77
+    },
+    {
+      "day_number": 262,
+      "available_rooms": 90,
+      "reserved_rooms": 7,
+      "day_revenue": 1289,
+      "average_room_price": 82
+    },
+    {
+      "day_number": 263,
+      "available_rooms": 90,
+      "reserved_rooms": 57,
+      "day_revenue": 1310,
+      "average_room_price": 86
+    },
+    {
+      "day_number": 264,
+      "available_rooms": 90,
+      "reserved_rooms": 46,
+      "day_revenue": 1019,
+      "average_room_price": 55
+    },
+    {
+      "day_number": 265,
+      "available_rooms": 90,
+      "reserved_rooms": 51,
+      "day_revenue": 1165,
+      "average_room_price": 59
+    },
+    {
+      "day_number": 266,
+      "available_rooms": 90,
+      "reserved_rooms": 6,
+      "day_revenue": 1615,
+      "average_room_price": 101
+    },
+    {
+      "day_number": 267,
+      "available_rooms": 90,
+      "reserved_rooms": 57,
+      "day_revenue": 1733,
+      "average_room_price": 109
+    },
+    {
+      "day_number": 268,
+      "available_rooms": 90,
+      "reserved_rooms": 50,
+      "day_revenue": 1258,
+      "average_room_price": 84
+    },
+    {
+      "day_number": 269,
+      "available_rooms": 90,
+      "reserved_rooms": 19,
+      "day_revenue": 1979,
+      "average_room_price": 114
+    },
+    {
+      "day_number": 270,
+      "available_rooms": 90,
+      "reserved_rooms": 19,
+      "day_revenue": 1603,
+      "average_room_price": 107
+    },
+    {
+      "day_number": 271,
+      "available_rooms": 90,
+      "reserved_rooms": 67,
+      "day_revenue": 1035,
+      "average_room_price": 89
+    },
+    {
+      "day_number": 272,
+      "available_rooms": 90,
+      "reserved_rooms": 58,
+      "day_revenue": 1000,
+      "average_room_price": 85
+    },
+    {
+      "day_number": 273,
+      "available_rooms": 90,
+      "reserved_rooms": 22,
+      "day_revenue": 629,
+      "average_room_price": 60
+    },
+    {
+      "day_number": 274,
+      "available_rooms": 90,
+      "reserved_rooms": 30,
+      "day_revenue": 1565,
+      "average_room_price": 119
+    },
+    {
+      "day_number": 275,
+      "available_rooms": 90,
+      "reserved_rooms": 40,
+      "day_revenue": 1879,
+      "average_room_price": 105
+    },
+    {
+      "day_number": 276,
+      "available_rooms": 90,
+      "reserved_rooms": 7,
+      "day_revenue": 936,
+      "average_room_price": 91
+    },
+    {
+      "day_number": 277,
+      "available_rooms": 90,
+      "reserved_rooms": 34,
+      "day_revenue": 937,
+      "average_room_price": 77
+    },
+    {
+      "day_number": 278,
+      "available_rooms": 90,
+      "reserved_rooms": 68,
+      "day_revenue": 1941,
+      "average_room_price": 104
+    },
+    {
+      "day_number": 279,
+      "available_rooms": 90,
+      "reserved_rooms": 12,
+      "day_revenue": 1154,
+      "average_room_price": 99
+    },
+    {
+      "day_number": 280,
+      "available_rooms": 90,
+      "reserved_rooms": 17,
+      "day_revenue": 783,
+      "average_room_price": 95
+    },
+    {
+      "day_number": 281,
+      "available_rooms": 90,
+      "reserved_rooms": 10,
+      "day_revenue": 902,
+      "average_room_price": 111
+    },
+    {
+      "day_number": 282,
+      "available_rooms": 90,
+      "reserved_rooms": 57,
+      "day_revenue": 704,
+      "average_room_price": 65
+    },
+    {
+      "day_number": 283,
+      "available_rooms": 90,
+      "reserved_rooms": 10,
+      "day_revenue": 683,
+      "average_room_price": 56
+    },
+    {
+      "day_number": 284,
+      "available_rooms": 90,
+      "reserved_rooms": 61,
+      "day_revenue": 1752,
+      "average_room_price": 78
+    },
+    {
+      "day_number": 285,
+      "available_rooms": 90,
+      "reserved_rooms": 5,
+      "day_revenue": 1558,
+      "average_room_price": 111
+    },
+    {
+      "day_number": 286,
+      "available_rooms": 90,
+      "reserved_rooms": 21,
+      "day_revenue": 1384,
+      "average_room_price": 97
+    },
+    {
+      "day_number": 287,
+      "available_rooms": 90,
+      "reserved_rooms": 11,
+      "day_revenue": 1940,
+      "average_room_price": 66
+    },
+    {
+      "day_number": 288,
+      "available_rooms": 90,
+      "reserved_rooms": 20,
+      "day_revenue": 651,
+      "average_room_price": 69
+    },
+    {
+      "day_number": 289,
+      "available_rooms": 90,
+      "reserved_rooms": 14,
+      "day_revenue": 1208,
+      "average_room_price": 79
+    },
+    {
+      "day_number": 290,
+      "available_rooms": 90,
+      "reserved_rooms": 14,
+      "day_revenue": 1069,
+      "average_room_price": 50
+    },
+    {
+      "day_number": 291,
+      "available_rooms": 90,
+      "reserved_rooms": 67,
+      "day_revenue": 1689,
+      "average_room_price": 88
+    },
+    {
+      "day_number": 292,
+      "available_rooms": 90,
+      "reserved_rooms": 55,
+      "day_revenue": 1098,
+      "average_room_price": 119
+    },
+    {
+      "day_number": 293,
+      "available_rooms": 90,
+      "reserved_rooms": 46,
+      "day_revenue": 1795,
+      "average_room_price": 53
+    },
+    {
+      "day_number": 294,
+      "available_rooms": 90,
+      "reserved_rooms": 15,
+      "day_revenue": 1645,
+      "average_room_price": 115
+    },
+    {
+      "day_number": 295,
+      "available_rooms": 90,
+      "reserved_rooms": 39,
+      "day_revenue": 1553,
+      "average_room_price": 91
+    },
+    {
+      "day_number": 296,
+      "available_rooms": 90,
+      "reserved_rooms": 64,
+      "day_revenue": 1521,
+      "average_room_price": 111
+    },
+    {
+      "day_number": 297,
+      "available_rooms": 90,
+      "reserved_rooms": 65,
+      "day_revenue": 1293,
+      "average_room_price": 66
+    },
+    {
+      "day_number": 298,
+      "available_rooms": 90,
+      "reserved_rooms": 63,
+      "day_revenue": 657,
+      "average_room_price": 84
+    },
+    {
+      "day_number": 299,
+      "available_rooms": 90,
+      "reserved_rooms": 11,
+      "day_revenue": 1384,
+      "average_room_price": 60
+    },
+    {
+      "day_number": 300,
+      "available_rooms": 90,
+      "reserved_rooms": 44,
+      "day_revenue": 714,
+      "average_room_price": 64
+    },
+    {
+      "day_number": 301,
+      "available_rooms": 90,
+      "reserved_rooms": 20,
+      "day_revenue": 1078,
+      "average_room_price": 82
+    },
+    {
+      "day_number": 302,
+      "available_rooms": 90,
+      "reserved_rooms": 30,
+      "day_revenue": 1385,
+      "average_room_price": 97
+    },
+    {
+      "day_number": 303,
+      "available_rooms": 90,
+      "reserved_rooms": 55,
+      "day_revenue": 987,
+      "average_room_price": 50
+    },
+    {
+      "day_number": 304,
+      "available_rooms": 90,
+      "reserved_rooms": 57,
+      "day_revenue": 1673,
+      "average_room_price": 115
+    },
+    {
+      "day_number": 305,
+      "available_rooms": 90,
+      "reserved_rooms": 11,
+      "day_revenue": 638,
+      "average_room_price": 92
+    },
+    {
+      "day_number": 306,
+      "available_rooms": 90,
+      "reserved_rooms": 7,
+      "day_revenue": 1896,
+      "average_room_price": 90
+    },
+    {
+      "day_number": 307,
+      "available_rooms": 90,
+      "reserved_rooms": 13,
+      "day_revenue": 810,
+      "average_room_price": 116
+    },
+    {
+      "day_number": 308,
+      "available_rooms": 90,
+      "reserved_rooms": 53,
+      "day_revenue": 1095,
+      "average_room_price": 76
+    },
+    {
+      "day_number": 309,
+      "available_rooms": 90,
+      "reserved_rooms": 16,
+      "day_revenue": 1296,
+      "average_room_price": 56
+    },
+    {
+      "day_number": 310,
+      "available_rooms": 90,
+      "reserved_rooms": 14,
+      "day_revenue": 821,
+      "average_room_price": 112
+    },
+    {
+      "day_number": 312,
+      "available_rooms": 90,
+      "reserved_rooms": 38,
+      "day_revenue": 1572,
+      "average_room_price": 54
+    },
+    {
+      "day_number": 313,
+      "available_rooms": 90,
+      "reserved_rooms": 48,
+      "day_revenue": 557,
+      "average_room_price": 53
+    },
+    {
+      "day_number": 314,
+      "available_rooms": 90,
+      "reserved_rooms": 16,
+      "day_revenue": 1690,
+      "average_room_price": 75
+    },
+    {
+      "day_number": 315,
+      "available_rooms": 90,
+      "reserved_rooms": 38,
+      "day_revenue": 610,
+      "average_room_price": 65
+    },
+    {
+      "day_number": 316,
+      "available_rooms": 90,
+      "reserved_rooms": 17,
+      "day_revenue": 1455,
+      "average_room_price": 120
+    },
+    {
+      "day_number": 317,
+      "available_rooms": 90,
+      "reserved_rooms": 30,
+      "day_revenue": 1953,
+      "average_room_price": 55
+    },
+    {
+      "day_number": 318,
+      "available_rooms": 90,
+      "reserved_rooms": 18,
+      "day_revenue": 1753,
+      "average_room_price": 100
+    },
+    {
+      "day_number": 319,
+      "available_rooms": 90,
+      "reserved_rooms": 6,
+      "day_revenue": 1614,
+      "average_room_price": 54
+    },
+    {
+      "day_number": 320,
+      "available_rooms": 90,
+      "reserved_rooms": 24,
+      "day_revenue": 1815,
+      "average_room_price": 94
+    },
+    {
+      "day_number": 321,
+      "available_rooms": 90,
+      "reserved_rooms": 12,
+      "day_revenue": 933,
+      "average_room_price": 71
+    },
+    {
+      "day_number": 322,
+      "available_rooms": 90,
+      "reserved_rooms": 58,
+      "day_revenue": 1528,
+      "average_room_price": 115
+    },
+    {
+      "day_number": 323,
+      "available_rooms": 90,
+      "reserved_rooms": 1,
+      "day_revenue": 1929,
+      "average_room_price": 96
+    },
+    {
+      "day_number": 324,
+      "available_rooms": 90,
+      "reserved_rooms": 53,
+      "day_revenue": 1274,
+      "average_room_price": 68
+    },
+    {
+      "day_number": 325,
+      "available_rooms": 90,
+      "reserved_rooms": 3,
+      "day_revenue": 810,
+      "average_room_price": 51
+    },
+    {
+      "day_number": 326,
+      "available_rooms": 90,
+      "reserved_rooms": 59,
+      "day_revenue": 992,
+      "average_room_price": 116
+    },
+    {
+      "day_number": 327,
+      "available_rooms": 90,
+      "reserved_rooms": 35,
+      "day_revenue": 868,
+      "average_room_price": 67
+    },
+    {
+      "day_number": 328,
+      "available_rooms": 90,
+      "reserved_rooms": 37,
+      "day_revenue": 1736,
+      "average_room_price": 79
+    },
+    {
+      "day_number": 329,
+      "available_rooms": 90,
+      "reserved_rooms": 3,
+      "day_revenue": 572,
+      "average_room_price": 108
+    },
+    {
+      "day_number": 330,
+      "available_rooms": 90,
+      "reserved_rooms": 23,
+      "day_revenue": 1234,
+      "average_room_price": 62
+    },
+    {
+      "day_number": 331,
+      "available_rooms": 90,
+      "reserved_rooms": 42,
+      "day_revenue": 752,
+      "average_room_price": 76
+    },
+    {
+      "day_number": 332,
+      "available_rooms": 90,
+      "reserved_rooms": 34,
+      "day_revenue": 717,
+      "average_room_price": 106
+    },
+    {
+      "day_number": 333,
+      "available_rooms": 90,
+      "reserved_rooms": 54,
+      "day_revenue": 1311,
+      "average_room_price": 70
+    },
+    {
+      "day_number": 334,
+      "available_rooms": 90,
+      "reserved_rooms": 7,
+      "day_revenue": 1908,
+      "average_room_price": 51
+    },
+    {
+      "day_number": 335,
+      "available_rooms": 90,
+      "reserved_rooms": 1,
+      "day_revenue": 746,
+      "average_room_price": 85
+    },
+    {
+      "day_number": 337,
+      "available_rooms": 90,
+      "reserved_rooms": 51,
+      "day_revenue": 1002,
+      "average_room_price": 110
+    },
+    {
+      "day_number": 338,
+      "available_rooms": 90,
+      "reserved_rooms": 7,
+      "day_revenue": 773,
+      "average_room_price": 118
+    },
+    {
+      "day_number": 339,
+      "available_rooms": 90,
+      "reserved_rooms": 50,
+      "day_revenue": 1546,
+      "average_room_price": 84
+    },
+    {
+      "day_number": 340,
+      "available_rooms": 90,
+      "reserved_rooms": 31,
+      "day_revenue": 1303,
+      "average_room_price": 116
+    },
+    {
+      "day_number": 341,
+      "available_rooms": 90,
+      "reserved_rooms": 1,
+      "day_revenue": 1927,
+      "average_room_price": 83
+    },
+    {
+      "day_number": 342,
+      "available_rooms": 90,
+      "reserved_rooms": 50,
+      "day_revenue": 1126,
+      "average_room_price": 57
+    },
+    {
+      "day_number": 343,
+      "available_rooms": 90,
+      "reserved_rooms": 63,
+      "day_revenue": 1469,
+      "average_room_price": 98
+    },
+    {
+      "day_number": 344,
+      "available_rooms": 90,
+      "reserved_rooms": 63,
+      "day_revenue": 1184,
+      "average_room_price": 97
+    },
+    {
+      "day_number": 345,
+      "available_rooms": 90,
+      "reserved_rooms": 46,
+      "day_revenue": 1318,
+      "average_room_price": 91
+    },
+    {
+      "day_number": 346,
+      "available_rooms": 90,
+      "reserved_rooms": 10,
+      "day_revenue": 688,
+      "average_room_price": 79
+    },
+    {
+      "day_number": 347,
+      "available_rooms": 90,
+      "reserved_rooms": 34,
+      "day_revenue": 1289,
+      "average_room_price": 70
+    },
+    {
+      "day_number": 348,
+      "available_rooms": 90,
+      "reserved_rooms": 25,
+      "day_revenue": 923,
+      "average_room_price": 104
+    },
+    {
+      "day_number": 349,
+      "available_rooms": 90,
+      "reserved_rooms": 21,
+      "day_revenue": 698,
+      "average_room_price": 68
+    },
+    {
+      "day_number": 350,
+      "available_rooms": 90,
+      "reserved_rooms": 24,
+      "day_revenue": 1811,
+      "average_room_price": 87
+    },
+    {
+      "day_number": 351,
+      "available_rooms": 90,
+      "reserved_rooms": 58,
+      "day_revenue": 1370,
+      "average_room_price": 104
+    },
+    {
+      "day_number": 352,
+      "available_rooms": 90,
+      "reserved_rooms": 48,
+      "day_revenue": 703,
+      "average_room_price": 56
+    },
+    {
+      "day_number": 354,
+      "available_rooms": 90,
+      "reserved_rooms": 49,
+      "day_revenue": 1449,
+      "average_room_price": 56
+    },
+    {
+      "day_number": 355,
+      "available_rooms": 90,
+      "reserved_rooms": 27,
+      "day_revenue": 1013,
+      "average_room_price": 80
+    },
+    {
+      "day_number": 356,
+      "available_rooms": 90,
+      "reserved_rooms": 70,
+      "day_revenue": 668,
+      "average_room_price": 72
+    },
+    {
+      "day_number": 357,
+      "available_rooms": 90,
+      "reserved_rooms": 4,
+      "day_revenue": 1033,
+      "average_room_price": 93
+    },
+    {
+      "day_number": 358,
+      "available_rooms": 90,
+      "reserved_rooms": 61,
+      "day_revenue": 1093,
+      "average_room_price": 111
+    },
+    {
+      "day_number": 359,
+      "available_rooms": 90,
+      "reserved_rooms": 10,
+      "day_revenue": 1106,
+      "average_room_price": 54
+    },
+    {
+      "day_number": 360,
+      "available_rooms": 90,
+      "reserved_rooms": 6,
+      "day_revenue": 1925,
+      "average_room_price": 81
+    },
+    {
+      "day_number": 361,
+      "available_rooms": 90,
+      "reserved_rooms": 33,
+      "day_revenue": 1881,
+      "average_room_price": 77
+    },
+    {
+      "day_number": 363,
+      "available_rooms": 90,
+      "reserved_rooms": 62,
+      "day_revenue": 1923,
+      "average_room_price": 85
+    },
+    {
+      "day_number": 364,
+      "available_rooms": 90,
+      "reserved_rooms": 16,
+      "day_revenue": 1137,
+      "average_room_price": 61
+    }
+  ]
+}
