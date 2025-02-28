@@ -9,7 +9,7 @@ export class UploadHandler {
     async process(data: string) {
         const db = await open({        filename: 'db.sqlite',  driver: sqlite3.Database    })
 
-        if (data.length > 10000000) {        throw new Error('Payload size exceeds 1 MB')    }
+        if (data.length > 1000000) {        throw new Error('Payload size exceeds 1 MB')    }
 
         const {payload} = new XMLParser()
             .parse(data);
