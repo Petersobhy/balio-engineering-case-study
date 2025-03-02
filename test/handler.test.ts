@@ -1,45 +1,82 @@
-import {describe, it, beforeEach} from "node:test";
+import { describe, it, beforeEach } from "node:test";
 import assert from "node:assert";
-import {readFileSync} from "node:fs";
-import {UploadHandler} from "../src/handler.ts";
-import {open} from "sqlite";
+import { readFileSync } from "node:fs";
+import { UploadHandler } from "../src/handler.ts";
+import { open } from "sqlite";
 import sqlite3 from "sqlite3";
-import {Record, Snapshot} from "../src/models.ts";
-import {expectedCleanResult} from "./fixtures/clean.expected.ts";
+import { Record, Snapshot } from "../src/models.ts";
+import { expectedCleanResult } from "./fixtures/clean.expected.ts";
+import { expectedIntegrationResult } from "./fixtures/new-integration.expected.ts";
 
 function mapToSnapshot(rows: any[]) {
-    const hotelName = rows[0].hotel_name;
-    return new Snapshot(hotelName, rows.map(r => new Record(r.sequence, r.total_rooms, r.sold_rooms, r.revenue)))
+  const hotelName = rows[0].hotel_name;
+  const soruceFormat = rows[0].soruce_format;
+  return new Snapshot(
+    hotelName,
+    rows.map(
+      (r) => new Record(r.sequence, r.total_rooms, r.sold_rooms, r.revenue)
+    ),
+    soruceFormat
+  );
 }
 describe("handler", async () => {
-    const db = await open({
-        filename: 'db.sqlite',
-        driver: sqlite3.Database
-    })
-    beforeEach(async () => {
-        await db.exec(`
+  const db = await open({
+    filename: "db.sqlite",
+    driver: sqlite3.Database,
+  });
+  beforeEach(async () => {
+    await db.exec(`
             DELETE FROM hotel_snapshots;
             DELETE FROM sqlite_sequence WHERE name='hotel_snapshots';
-        `)
-    })
-    it("Rejects the payload if it has more than 365 sequences", async () => {
-        const payload = readFileSync(`${process.cwd()}/samples/extra-day.xml`, 'utf-8')
+        `);
+  });
+  it("Rejects the payload if it has more than 365 sequences", async () => {
+    const payload = readFileSync(
+      `${process.cwd()}/samples/extra-day.xml`,
+      "utf-8"
+    );
 
-        await assert.rejects(() => new UploadHandler().process(payload), new Error("Invalid payload. Sequences are more than 365 sequences"));
-    })
-    it("Stores the snapshot when all validations pass", async () => {
-        const payload = readFileSync(`${process.cwd()}/samples/clean.xml`, 'utf-8')
-        await new UploadHandler().process(payload);
+    await assert.rejects(
+      () => new UploadHandler().process(payload),
+      new Error("Invalid payload. Sequences are more than 365 sequences")
+    );
+  });
+  it("Stores the snapshot when all validations pass", async () => {
+    const payload = readFileSync(`${process.cwd()}/samples/clean.xml`, "utf-8");
+    await new UploadHandler().process(payload);
 
-        const saved = await db.all(`SELECT * FROM hotel_snapshots WHERE hotel_name = 'Hotel CleanX'`)
+    const saved = await db.all(
+      `SELECT * FROM hotel_snapshots WHERE hotel_name = 'Hotel CleanX'`
+    );
 
-        await assert.deepEqual(mapToSnapshot(saved), expectedCleanResult);
-    })
-    it("Rejects the payload if it's more than 1mb in size", async () => {
-        const payload = readFileSync(`${process.cwd()}/samples/over-size-limit.xml`, 'utf-8')
+    await assert.deepEqual(mapToSnapshot(saved), expectedCleanResult);
+  });
+  it("Rejects the payload if it's more than 1mb in size", async () => {
+    const payload = readFileSync(
+      `${process.cwd()}/samples/over-size-limit.xml`,
+      "utf-8"
+    );
 
-        await assert.rejects(() => new UploadHandler().process(payload), new Error("Payload size exceeds 1 MB"));
-    })
+    await assert.rejects(
+      () => new UploadHandler().process(payload),
+      new Error("Payload size exceeds 1 MB")
+    );
+  });
+  it("Stores the snapshot when all validations pass - JSON", async () => {
+    const payload = readFileSync(
+      `${process.cwd()}/samples/new-integration.json`,
+      "utf-8"
+    );
+    await new UploadHandler().process(payload);
 
+    const saved = await db.all(
+      `SELECT * FROM hotel_snapshots WHERE hotel_name = 'Hotel Neo'`
+    );
 
-})
+    await assert.deepEqual(mapToSnapshot(saved), expectedIntegrationResult);
+  });
+  it("Correctly calculate Average Daily Revenue calculation (ADR) of Record", async () => {
+    const testRecord = new Record(1, 100, 17, 323);
+    await assert.strictEqual(testRecord.ADR, "19.00");
+  });
+});

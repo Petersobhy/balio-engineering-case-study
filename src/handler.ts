@@ -1,47 +1,61 @@
-import {XMLParser} from "fast-xml-parser";
-import {open} from "sqlite";
+import { open } from "sqlite";
 import sqlite3 from "sqlite3";
-import {Record,
-
-    Snapshot} from "./models.ts";
+import { DataParser } from "./data-parser.ts";
 
 export class UploadHandler {
-    async process(data: string) {
-        const db = await open({        filename: 'db.sqlite',  driver: sqlite3.Database    })
+  async process(data: string) {
+    try {
+      if (data.length > 1000000) {
+        throw new Error("Payload size exceeds 1 MB");
+      }
 
-        if (data.length > 1000000) {        throw new Error('Payload size exceeds 1 MB')    }
+      const snapshot = new DataParser().parse(data);
 
-        const {payload} = new XMLParser()
-            .parse(data);
+      let maxSequence = -Infinity;
+      for (let r of snapshot.records) {
+        if (r.sequence > maxSequence) {
+          maxSequence = r.sequence;
+        }
+      }
 
-        const snapshot = new Snapshot(payload.hotelName, payload.data.map((r: any) => new Record(r.sequence, r.totalRooms, r.soldRooms, r.revenue)))
+      if (maxSequence > 365) {
+        throw new Error(
+          "Invalid payload. Sequences are more than 365 sequences"
+        );
+      }
 
-        let maxSequence = -Infinity
+      if (maxSequence < 365) {
+        throw new Error(
+          "Invalid payload. Sequences are less than 365 sequences"
+        );
+      }
+
+      if (maxSequence === 365) {
+        const db = await open({
+          filename: "db.sqlite",
+          driver: sqlite3.Database,
+        });
+
         for (let r of snapshot.records) {
-            if (r.sequence > maxSequence) {  maxSequence = r.sequence  }
-        }
-
-        if (maxSequence > 365)
-
-        {
-            throw new Error('Invalid payload. Sequences are more than 365 sequences') }
-
-        if (maxSequence < 365)
-        {
-            throw new Error('Invalid payload. Sequences are less than 365 sequences')
-        }
-
-        if (maxSequence === 365) {
-            for (let r of snapshot.records) {
-                await db.run(`INSERT INTO hotel_snapshots (hotel_name, sequence, total_rooms, sold_rooms, revenue)
+          await db.run(
+            `INSERT INTO hotel_snapshots (hotel_name, sequence, total_rooms, sold_rooms, revenue, soruce_format)
                           VALUES (:hotelName, 
                                   :sequence, :totalRooms, :soldRooms,
-                                  :revenue)
-            `, {
-                    ':hotelName': snapshot.hotelName,
-                    ':sequence': r.sequence,':totalRooms': r.totalRooms,':soldRooms': r.soldRooms,':revenue': r.revenue
-                })
+                                  :revenue, :soruce_format)
+            `,
+            {
+              ":hotelName": snapshot.hotelName,
+              ":sequence": r.sequence,
+              ":totalRooms": r.totalRooms,
+              ":soldRooms": r.soldRooms,
+              ":revenue": r.revenue,
+              ":soruce_format": snapshot.soruceFormat,
             }
+          );
         }
+      }
+    } catch (e) {
+      throw e;
     }
+  }
 }

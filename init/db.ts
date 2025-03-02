@@ -17,6 +17,7 @@ import sqlite3 from "sqlite3";
             total_rooms INTEGER            NOT NULL,
             sold_rooms  INTEGER            NOT NULL,
             revenue     DECIMAL(12, 2)     NOT NULL,
+            soruce_format VARCHAR(10)      NULL,
             created_at  DATETIME DEFAULT current_timestamp
         )`
     )

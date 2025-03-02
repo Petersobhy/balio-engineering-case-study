@@ -1,4 +1,4 @@
-import {Snapshot, Record} from "../../src/models.ts";
+import {Snapshot, Record, SourceFormat} from "../../src/models.ts";
 
 export const expectedCleanResult = new Snapshot('Hotel CleanX', [
         new Record(1, 140, 61, 980),
@@ -366,5 +366,6 @@ export const expectedCleanResult = new Snapshot('Hotel CleanX', [
         new Record(363, 140, 50, 143),
         new Record(364, 140, 59, 117),
         new Record(365, 140, 131, 860)
-    ]
+    ],
+    SourceFormat.XML
 )
